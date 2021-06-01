@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#App {
+  margin: 0;
+  padding: 0;
+}
+
+#Home {
+  margin: 0;
+  padding: 0;
+}
+
+#Navbar {
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #cecece;
+  text-align: center;
+  .title {
+    font-size: 20px;
+    font-weight: 20px;
+    padding-top: 15px;
+  }
+}
+
+#Logo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-right: 30px;
+}
+
+#Search {
+  width: 361px;
+  height: 40px;
+  background-color: #f1f1f1;
+  border:none;
+  border-radius: 50px;
+  padding-left: 15px;
+}
+
+#Button {
+  width: 100px;
+  height: 36px;
+  background-color: #36373d;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px; 
+  -o-border-radius: 4px;
+  margin-top: 20px;
+}
+
+#Card {
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 600px;
+  margin-top: 50px;
+  background-color: gray;
+  margin-left: 400px;
+  align-content: center;
+  img {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .Estado {
+    margin-bottom: none;
+    padding-bottom: none;
+    text-align: center;
+    font-size: 17px;
+  }
+  .Seccion {
+    margin-bottom: none;
+    padding-bottom: none;
+    margin-top: 50px;
+  }
+}
+
